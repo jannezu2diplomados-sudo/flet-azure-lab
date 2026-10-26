@@ -2,7 +2,7 @@ import flet as ft
 
 
 def main(page: ft.Page):
-    page.title = "Mi primer sitio Flet"
+    page.title = "Inicio"
     page.theme_mode = ft.ThemeMode.LIGHT
     page.bgcolor = "#F4F7FB"
     page.padding = 32
@@ -37,7 +37,7 @@ def main(page: ft.Page):
         mensaje,
         contador,
         ft.Divider(),
-        ft.Text("Versión 1 · Publicación estática en Azure"),
+        ft.Text("Versión 2 · Publicado en Azure App Service  , Derechos reservados :Jannez Urrego"),
         ft.Text("Demostración: no guarda datos en una base de datos.",
                 size=12),
     )
